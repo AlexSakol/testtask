@@ -27,6 +27,7 @@
     for($i =0; $i < count($codes); $i++){
         $masks[$i] = strtok($codes[$i]['mask'], '-');
         $masks[$i] = strtok($masks[$i], '(');
-        $masks[$i] = str_replace('+', '', $masks[$i]);        
+        $masks[$i] = str_replace('+', '', $masks[$i]);
+        $names[$i] = $codes[$i]['name_ru'];       
     }   
 ?>
