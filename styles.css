@@ -71,10 +71,22 @@ li{
 @media (max-width: 990px){
     .bckgrnd, .card, img{
         width: 100%;
-    }
+    }  
 
     .card{
         background: linear-gradient(117deg, rgba(251, 251, 251, 0.00) 7.83%, #F0F0F0 68.77%);
         border: none;
+        height: 60%;
     }
+
+    .bckgrnd{
+        height: 100%;
+    }
+
+    img{
+        height: 40%;
+        border-radius: 0px;
+    }
+    
+    
 }
