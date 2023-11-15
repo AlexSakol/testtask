@@ -19,3 +19,7 @@
     <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>   
+<?php
+    $codes = file_get_contents('https://cdn.jsdelivr.net/gh/andr-04/inputmask-multi@master/data/phone-codes.json');
+    $codes = json_decode($codes, true);
+?>
