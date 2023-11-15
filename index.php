@@ -7,7 +7,14 @@
     <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
 </head>
 <body>
-    
+    <div class="container">
+        <form action="" method="GET">
+            <div class="form-group mb-3 mt-3">
+                <input type="tel" class="form-control" name="phone" placeholder="Enter phone number">
+            </div>
+            <input type="submit" class="btn btn-primary mb-3">
+        </form>
+    </div>
     <script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
     <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
 </body>
