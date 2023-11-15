@@ -22,4 +22,11 @@
 <?php
     $codes = file_get_contents('https://cdn.jsdelivr.net/gh/andr-04/inputmask-multi@master/data/phone-codes.json');
     $codes = json_decode($codes, true);
+    $masks = array();
+    $names = array();
+    for($i =0; $i < count($codes); $i++){
+        $masks[$i] = strtok($codes[$i]['mask'], '-');
+        $masks[$i] = strtok($masks[$i], '(');
+        $masks[$i] = str_replace('+', '', $masks[$i]);        
+    }   
 ?>
