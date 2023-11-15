@@ -72,6 +72,9 @@
                 </ul>
                 <button class="btn">Więcej</button>
             </div>
+            <div class="col-md-12 col-lg-6">
+                <img src="images/Rectangle 802.png">
+            </div>
         </div>
     </div>
 
