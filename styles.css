@@ -10,6 +10,13 @@
     backdrop-filter: blur(20px);
 }
 
+.bckgrnd{
+    width: 1260px;
+    height: 600px;
+    flex-shrink: 0;
+    background: linear-gradient(117deg, rgba(251, 251, 251, 0.00) 7.83%, #F0F0F0 68.77%);
+}
+
 h2, ul, #card_button{
     margin-left: 32px;
 }
@@ -60,3 +67,4 @@ li{
     font-weight: 400;
     line-height: 150%; /* 24px */
 }
+

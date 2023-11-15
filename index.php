@@ -63,17 +63,19 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-lg-6">                
-                <div class="card">
-                    <h2>Fulfillment dla Twojego <br>e-Commerce</h2>
-                        <ul>
-                            <li>Przyjęcie i magazynowanie produktów</li>
-                            <li>Kompletacja i pakowanie</li>
-                            <li>Obsługa zwrotów i reklamacji</li>
-                            <li>Współpraca ze wszystkimi dostępnymi przewoźnikami</li>
-                            <li>Integracja z Twoją platformą e-Commerce</li>                    
-                        </ul>
-                        <button id="card_button">Więcej</button>
+            <div class="col-md-12 col-lg-6">
+                <div class="bckgrnd">                
+                    <div class="card">
+                        <h2>Fulfillment dla Twojego <br>e-Commerce</h2>
+                            <ul>
+                                <li>Przyjęcie i magazynowanie produktów</li>
+                                <li>Kompletacja i pakowanie</li>
+                                <li>Obsługa zwrotów i reklamacji</li>
+                                <li>Współpraca ze wszystkimi dostępnymi przewoźnikami</li>
+                                <li>Integracja z Twoją platformą e-Commerce</li>                    
+                            </ul>
+                            <button id="card_button">Więcej</button>
+                    </div>
                 </div>
             </div>    
             <div class="col-md-12 col-lg-6">                
