@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test task</title>
     <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    
     <div class="container">
         <form action="" method="GET">
             <div class="form-group mb-3 mt-3">
@@ -65,17 +67,17 @@
                 <div class="card">
                     <div class="card-body">
                         <h2 class="card-title">Fulfillment dla Twojego e-Commerce</h2>
-                        <div class="card-text">
-                            <ul>
-                                <li>Przyjęcie i magazynowanie produktów</li>
-                                <li>Kompletacja i pakowanie</li>
-                                <li>Obsługa zwrotów i reklamacji</li>
-                                <li>Współpraca ze wszystkimi dostępnymi przewoźnikami</li>
-                                <li>Integracja z Twoją platformą e-Commerce</li>                    
-                            </ul>
-                        </div>
+                            <div class="card-text">
+                                <ul>
+                                    <li>Przyjęcie i magazynowanie produktów</li>
+                                    <li>Kompletacja i pakowanie</li>
+                                    <li>Obsługa zwrotów i reklamacji</li>
+                                    <li>Współpraca ze wszystkimi dostępnymi przewoźnikami</li>
+                                    <li>Integracja z Twoją platformą e-Commerce</li>                    
+                                </ul>
+                            </div>
                         <button class="btn">Więcej</button>
-                    <div>    
+                    </div>
                 </div>
             </div>
             <div class="col-md-12 col-lg-6">                
