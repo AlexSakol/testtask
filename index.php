@@ -25,15 +25,26 @@
     $masks = array();
     $names = array();
     for($i =0; $i < count($countries); $i++){
-        $masks[$i] = strtok($countries[$i]['mask'], '-');
-        $masks[$i] = strtok($masks[$i], '(');
-        $masks[$i] = str_replace('+', '', $masks[$i]);
+        $masks[$i] = str_replace("+", "", $countries[$i]['mask']);
+        $masks[$i] = str_replace("#", "", $masks[$i]);
+        $masks[$i] = str_replace("-", "", $masks[$i]);
+        $masks[$i] = str_replace("(", "", $masks[$i]);
+        $masks[$i] = str_replace(")", "", $masks[$i]);
         $names[$i] = $countries[$i]['name_ru'];       
     }  
     if(!empty($_GET['phone'])){
         $phone = htmlspecialchars($_GET['phone']); 
-        $code = strtok($phone, '(');
-        $code = strtok($code, ' ');
-        $code= str_replace('+', '', $code);        
+        $phone = str_replace("+", "", $phone);        
+        $phone = str_replace("-", " ", $phone);
+        $phone = str_replace("(", " ", $phone);
+        $phone = str_replace(")", " ", $phone);
+        $code = strtok($phone, ' ');     
+        $index = array_search($code, $masks);
+        if(is_numeric($index) && $index >=0){
+            echo $names[$index];            
+        }
+        else{
+            echo "Ничего не найдено";
+        }
     }         
 ?>
