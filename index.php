@@ -29,11 +29,6 @@
         </div>
     </div>
 
-    <script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
-    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
-</body>
-</html>   
 <?php
     $countries = file_get_contents('https://cdn.jsdelivr.net/gh/andr-04/inputmask-multi@master/data/phone-codes.json');
     $countries= json_decode($countries, true);
@@ -63,3 +58,25 @@
         }
     }         
 ?>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-6">
+                <h2>Fulfillment dla Twojego e-Commerce</h2>
+                <ul>
+                    <li>Przyjęcie i magazynowanie produktów</li>
+                    <li>Kompletacja i pakowanie</li>
+                    <li>Obsługa zwrotów i reklamacji</li>
+                    <li>Współpraca ze wszystkimi dostępnymi przewoźnikami</li>
+                    <li>Integracja z Twoją platformą e-Commerce</li>                    
+                </ul>
+                <button class="btn">Więcej</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>  

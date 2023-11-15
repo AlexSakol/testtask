@@ -1,16 +1,17 @@
 "use strict";
 if(getCookie("accept_cookies") != "true"){
-let accept_btn = document.querySelector("#accept");
+    let accept_btn = document.querySelector("#accept");
 
-window.addEventListener('DOMContentLoaded', ()=>{
-    let offcanvas = document.querySelector("#offcanvas");
-    let cookie_notice = new bootstrap.Offcanvas(offcanvas);
-    cookie_notice.show();
-});
+    window.addEventListener('DOMContentLoaded', ()=>{
+        let offcanvas = document.querySelector("#offcanvas");
+        let cookie_notice = new bootstrap.Offcanvas(offcanvas);
+        cookie_notice.show();
+    });
 
-accept_btn.addEventListener('click', ()=>{     
-    document.cookie = "accept_cookies=true; max-age=86400; path=/";;
-});
+    accept_btn.addEventListener('click', ()=>{     
+        document.cookie = "accept_cookies=true; max-age=86400; path=/";;
+    });
+
 }
 
 function getCookie(name) {
