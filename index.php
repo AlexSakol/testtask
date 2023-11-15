@@ -63,9 +63,9 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-lg-6">
+            <div class="col-md-12 col-lg-6">                
                 <div class="card">
-                    <h2>Fulfillment dla Twojego e-Commerce</h2>
+                    <h2>Fulfillment dla Twojego <br>e-Commerce</h2>
                         <ul>
                             <li>Przyjęcie i magazynowanie produktów</li>
                             <li>Kompletacja i pakowanie</li>

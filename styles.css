@@ -1,3 +1,24 @@
+.card{
+    width: 760px;
+    height: 489px;
+    flex-shrink: 0;
+    padding: 40px;
+    padding-left: 0px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.24);
+    box-shadow: 0px 0px 20px 0px rgba(205, 205, 205, 0.25);
+    backdrop-filter: blur(20px);
+}
+
+h2, ul, #card_button{
+    margin-left: 32px;
+}
+
+ul{
+    list-style-image: url('images/Frame.svg');
+    margin-bottom: 40px;
+}
+
 img{
     width: 878px;
     height: 600px;
@@ -6,27 +27,17 @@ img{
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
-.card{
-    width: 760px;
-    height: 489px;
-    flex-shrink: 0;
-    padding: 40px;
-    border-radius: 16px;
-    background: rgba(255, 255, 255, 0.24);
-    box-shadow: 0px 0px 20px 0px rgba(205, 205, 205, 0.25);
-    backdrop-filter: blur(20px);
-}
-
 h2, li{
     color: #2E2E2E;
     font-family: Nunito;    
-    font-style: normal;    
+    font-style: normal;
 }
 
-h2{
+h2{    
     font-weight: 600;
     font-size: 50px;
     line-height: 130%; /* 65px */
+    margin-bottom: 22px;
 }
 
 li{
