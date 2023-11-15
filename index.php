@@ -20,14 +20,20 @@
 </body>
 </html>   
 <?php
-    $codes = file_get_contents('https://cdn.jsdelivr.net/gh/andr-04/inputmask-multi@master/data/phone-codes.json');
-    $codes = json_decode($codes, true);
+    $countries = file_get_contents('https://cdn.jsdelivr.net/gh/andr-04/inputmask-multi@master/data/phone-codes.json');
+    $countries= json_decode($countries, true);
     $masks = array();
     $names = array();
-    for($i =0; $i < count($codes); $i++){
-        $masks[$i] = strtok($codes[$i]['mask'], '-');
+    for($i =0; $i < count($countries); $i++){
+        $masks[$i] = strtok($countries[$i]['mask'], '-');
         $masks[$i] = strtok($masks[$i], '(');
         $masks[$i] = str_replace('+', '', $masks[$i]);
-        $names[$i] = $codes[$i]['name_ru'];       
-    }   
+        $names[$i] = $countries[$i]['name_ru'];       
+    }  
+    if(!empty($_GET['phone'])){
+        $phone = htmlspecialchars($_GET['phone']); 
+        $code = strtok($phone, '(');
+        $code = strtok($code, ' ');
+        $code= str_replace('+', '', $code);        
+    }         
 ?>
