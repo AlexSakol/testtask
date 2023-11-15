@@ -1,8 +1,6 @@
-.card{
-    width: 760px;
-    height: 489px;
+.card{  
     flex-shrink: 0;
-    padding: 40px;
+    padding: 5%;
     padding-left: 0px;
     border-radius: 16px;
     background: rgba(255, 255, 255, 0.24);
@@ -10,27 +8,23 @@
     backdrop-filter: blur(20px);
 }
 
-.bckgrnd{
-    width: 1260px;
-    height: 600px;
+.bckgrnd{    
     flex-shrink: 0;
     background: linear-gradient(117deg, rgba(251, 251, 251, 0.00) 7.83%, #F0F0F0 68.77%);
 }
 
 h2, ul, #card_button{
-    margin-left: 32px;
+    margin-left: 4.6%;
 }
 
 ul{
     list-style-image: url('images/Frame.svg');
-    margin-bottom: 40px;
+    margin-bottom: 5%;
 }
 
-img{
-    width: 878px;
-    height: 600px;
+img{  
     flex-shrink: 0;
-    border-radius: 48px 0px 0px 48px;
+    border-radius: 5.2% 0px 0px 5.2%;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
@@ -42,15 +36,15 @@ h2, li{
 
 h2{    
     font-weight: 600;
-    font-size: 50px;
-    line-height: 130%; /* 65px */
+    font-size: 4.9vh;
+    line-height: 130%; 
     margin-bottom: 22px;
 }
 
 li{
     font-weight: 400;
-    font-size: 18px;
-    line-height: 150%; /* 65px */
+    font-size: 1.7vh;
+    line-height: 150%; 
 }
 
 #card_button{
@@ -76,7 +70,7 @@ li{
     .card{
         background: linear-gradient(117deg, rgba(251, 251, 251, 0.00) 7.83%, #F0F0F0 68.77%);
         border: none;
-        height: 60%;
+        height: 60vh;
     }
 
     .bckgrnd{
@@ -86,7 +80,25 @@ li{
     img{
         height: 40%;
         border-radius: 0px;
+    }  
+}
+
+@media (min-width: 991px) {
+    
+    .bckgrnd{
+        width: 65.6vw;
+        height: 55vh;        
     }
-    
-    
+
+    .card{
+        margin-left: 16.92%;
+        width: 45vw; 
+        height: 47.94vh;      
+    }
+
+    img{
+        width: 45.7vw; 
+        height: 55vh;       
+    }
+   
 }
