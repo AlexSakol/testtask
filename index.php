@@ -15,6 +15,20 @@
             <input type="submit" class="btn btn-primary mb-3">
         </form>
     </div>
+    
+    <!--Cookie notification-->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Уведомление о куки</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Для функционирования этого сайта требуются куки</p>
+            <button class="btn btn-success" data-bs-dismiss="offcanvas">Принять</button>
+            <button class="btn btn-outline-danger" data-bs-dismiss="offcanvas">Отказаться</button>
+        </div>
+    </div>
+
     <script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
     <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
 </body>
