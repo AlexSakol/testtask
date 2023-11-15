@@ -10,8 +10,42 @@ img{
     width: 760px;
     height: 489px;
     flex-shrink: 0;
+    padding: 40px;
     border-radius: 16px;
     background: rgba(255, 255, 255, 0.24);
     box-shadow: 0px 0px 20px 0px rgba(205, 205, 205, 0.25);
     backdrop-filter: blur(20px);
+}
+
+h2, li{
+    color: #2E2E2E;
+    font-family: Nunito;    
+    font-style: normal;    
+}
+
+h2{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 130%; /* 65px */
+}
+
+li{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%; /* 65px */
+}
+
+#card_button{
+    width: 130px;
+    height: 48px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 4px;
+    background: #78599C;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
 }

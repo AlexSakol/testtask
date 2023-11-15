@@ -73,7 +73,7 @@
                             <li>Współpraca ze wszystkimi dostępnymi przewoźnikami</li>
                             <li>Integracja z Twoją platformą e-Commerce</li>                    
                         </ul>
-                        <button class="btn">Więcej</button>
+                        <button id="card_button">Więcej</button>
                 </div>
             </div>    
             <div class="col-md-12 col-lg-6">                
