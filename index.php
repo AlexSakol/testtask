@@ -62,18 +62,25 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-lg-6">
-                <h2>Fulfillment dla Twojego e-Commerce</h2>
-                <ul>
-                    <li>Przyjęcie i magazynowanie produktów</li>
-                    <li>Kompletacja i pakowanie</li>
-                    <li>Obsługa zwrotów i reklamacji</li>
-                    <li>Współpraca ze wszystkimi dostępnymi przewoźnikami</li>
-                    <li>Integracja z Twoją platformą e-Commerce</li>                    
-                </ul>
-                <button class="btn">Więcej</button>
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Fulfillment dla Twojego e-Commerce</h2>
+                        <div class="card-text">
+                            <ul>
+                                <li>Przyjęcie i magazynowanie produktów</li>
+                                <li>Kompletacja i pakowanie</li>
+                                <li>Obsługa zwrotów i reklamacji</li>
+                                <li>Współpraca ze wszystkimi dostępnymi przewoźnikami</li>
+                                <li>Integracja z Twoją platformą e-Commerce</li>                    
+                            </ul>
+                        </div>
+                        <button class="btn">Więcej</button>
+                    <div>    
+                </div>
             </div>
-            <div class="col-md-12 col-lg-6">
-                <img src="images/Rectangle 802.png">
+            <div class="col-md-12 col-lg-6">                
+                        <img src="images/Rectangle 802.png">                    
+                </div>
             </div>
         </div>
     </div>
