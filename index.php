@@ -24,13 +24,14 @@
         </div>
         <div class="offcanvas-body">
             <p>Для функционирования этого сайта требуются куки</p>
-            <button class="btn btn-success" data-bs-dismiss="offcanvas">Принять</button>
+            <button class="btn btn-success" id="accept" data-bs-dismiss="offcanvas">Принять</button>
             <button class="btn btn-outline-danger" data-bs-dismiss="offcanvas">Отказаться</button>
         </div>
     </div>
 
     <script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
     <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>   
 <?php
